@@ -7,3 +7,5 @@
 3. add `is_cancelled` field: a boolean field indicating whether the transaction is cancelled or not. This will help in filtering out cancelled transactions during analysis.
 
 4. change `invoice_date` field format: convert it to datetime format for easier date-based analysis and filtering.
+
+5. remove `description` field: this field is not useful for analysis and can be removed to reduce data size.
